@@ -1,0 +1,37 @@
+
+html {
+  min-width: 320px;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+
+.expiry-info p {
+  margin: 4px 0;
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+.expiry-expired {
+  color: #bf3535;
+  font-weight: 700;
+}
+
+.expiry-expiring-soon {
+  color: #936100;
+  font-weight: 700;
+}
+
+.expiry-valid {
+  color: #167548;
+  font-weight: 600;
+}

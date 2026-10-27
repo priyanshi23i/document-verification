@@ -1,0 +1,54 @@
+
+### Add document 1
+POST http://localhost:5000/api/documents
+Content-Type: application/json
+
+{
+  "name": "Student ID Card",
+  "status": "Pending"
+}
+
+### Add document 2
+POST http://localhost:5000/api/documents
+Content-Type: application/json
+
+{
+  "name": "Income Certificate",
+  "status": "Pending"
+}
+
+### Add document 3
+POST http://localhost:5000/api/documents
+Content-Type: application/json
+
+{
+  "name": "Academic Certificate",
+  "status": "Pending"
+}
+
+### Add document 4
+POST http://localhost:5000/api/documents
+Content-Type: application/json
+
+{
+  "name": "Address Proof",
+  "status": "Pending"
+}
+
+### Add document 5
+POST http://localhost:5000/api/documents
+Content-Type: application/json
+
+{
+  "name": "Caste Certificate",
+  "status": "Pending"
+}
+
+### Add document 6
+POST http://localhost:5000/api/documents
+Content-Type: application/json
+
+{
+  "name": "Bank Passbook",
+  "status": "Pending"
+}
